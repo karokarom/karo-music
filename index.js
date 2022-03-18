@@ -168,7 +168,7 @@ require('http').createServer((req, res) => res.end(`
 `)).listen(3000) //Dont remove this 
 
 client.on("ready", () => {
-   client.user.setStatus("dnd"); // You can change it to online, dnd, idle
+   client.user.setStatus("online"); // You can change it to online, dnd, idle
 
  console.log(`Successfully logined as ${client.user.tag} `)
 });
@@ -182,4 +182,4 @@ client.on("ready", () => {
 // url: "https://www.twitch.tv/nocopyrightsounds"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-client.login("");
+client.login("OTU0MDI4MjAxMTQxNzUxODE4.YjNKAA.F3FHuJuT_CGxteqWDnpxKnUtW5c");
