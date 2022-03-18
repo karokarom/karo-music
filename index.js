@@ -63,7 +63,7 @@ client.on("message", async message => {
         Bot Prefix: \`${prefix}\`
         Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
 
-        :question: Still need help? [Click Here](https://discord.gg/gU7XAxTpX5) to join server
+        :question: Still need help? [Click Here](https://discord.gg/V6xAkgCsQs) to join server
         `)
         .setThumbnail(client.user.displayAvatarURL())
         .setColor("#006732")
@@ -178,8 +178,8 @@ client.on("ready", () => {
 
 //  For Watching Status
 // client.on("ready", () => {
-// client.user.setActivity(`Chilling with owner`, { type:         "STREAMING",
+// client.user.setActivity(`Chilling with owner`, { type:         "LISTENING",
 // url: "https://www.twitch.tv/nocopyrightsounds"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-client.login(process.env.TOKEN);
+client.login("");
