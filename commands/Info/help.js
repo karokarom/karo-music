@@ -8,8 +8,8 @@ const { prefix, developerID, bot, support } = require("../../config.json")
 
 
 module.exports = {
-  name: "%help",
-  description: "%Info",
+  name: "help",
+  description: "Info",
 
   run: async (client, message, args) => {
 
