@@ -10,9 +10,9 @@ const ytdl = require('ytdl-core');
 
 module.exports = {
 
-        name: '%p',
+        name: 'play',
         description: 'Play command',
-        aliases: ["%p"],
+        aliases: ["p"],
         category: "music",
         usage: '[song (name | link)]',
         accessableby: "everyone",
