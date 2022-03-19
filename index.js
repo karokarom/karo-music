@@ -183,6 +183,4 @@ client.on("%play", () => {
 // url: "https://www.twitch.tv/nocopyrightsounds"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-  client.user.setActivity("By KarO")
-
 client.login("OTU0MDI4MjAxMTQxNzUxODE4.YjNKAA.F3FHuJuT_CGxteqWDnpxKnUtW5c");
