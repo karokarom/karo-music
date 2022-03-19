@@ -12,7 +12,7 @@ module.exports = {
 
         name: 'play',
         description: 'Play command',
-        aliases: ["p"],
+        aliases: ["%p"],
         category: "music",
         usage: '[song (name | link)]',
         accessableby: "everyone",
