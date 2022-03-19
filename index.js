@@ -118,8 +118,6 @@ cooldown.delete(message.author.id)}, cdseconds * 1000)
             games: games
         }
 
-  client.user.setActivity("By KarO")
-
   if (command) command.run(client, message, args, ops);
   
 
