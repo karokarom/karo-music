@@ -167,7 +167,7 @@ require('http').createServer((req, res) => res.end(`
 `)).listen(3000) //Dont remove this 
 
 client.on("%play", () => {
-   client.user.setStatus("online"); // You can change it to online, dnd, idle
+   client.user.setStatus("Karo "); // You can change it to online, dnd, idle
 
  console.log(`Successfully logined as ${client.user.tag} `)
 });
