@@ -34,7 +34,6 @@ module.exports = {
         button: [button1,button2],
       });
 
-By <@900805797683028078>
 
   },
 };
