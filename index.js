@@ -28,9 +28,6 @@ const yts = require('yt-search');
 
 const ads = require("./JSON/ad.json")
 
-
-client.user.setActivity( `By Kaaro`);
-
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 
