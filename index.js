@@ -179,4 +179,4 @@ client.on("%play", () => {
 // url: "https://www.twitch.tv/nocopyrightsounds"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-client.login("OTU0MDI4MjAxMTQxNzUxODE4.YjNKAA.zgim4NMrLmFVl7EdSfhe9AH7DXE");
+client.login("OTU0MDI4MjAxMTQxNzUxODE4.YjNKAA.HQNR9V3QXnMnP3FD4Z-WedMLKKY");
