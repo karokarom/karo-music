@@ -61,7 +61,7 @@ client.on("message", async message => {
         Bot Prefix: \`${prefix}\`
         Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
 
-        :question: Still need help? [Click Here](https://discord.gg/V6xAkgCsQs) to join server
+        :question: Still need help? [Click Here](https://discord.gg/NjMfKstSAs) to join server
         `)
         .setThumbnail(client.user.displayAvatarURL())
         .setColor("#006732")
