@@ -61,7 +61,7 @@ client.on("message", async message => {
         Bot Prefix: \`${prefix}\`
         Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
 
-        :question: Still need help? [Click Here](https://discord.gg/NjMfKstSAs) to join server
+        :question: Still need help? [Click Here](https://discord.gg/szfsUgHNYG) to join server Karo
         `)
         .setThumbnail(client.user.displayAvatarURL())
         .setColor("#006732")
@@ -156,7 +156,7 @@ require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
  |• Author: Supreme#2401                   |
  |-----------------------------------------|
- |• Server: https://discord.gg/gU7XAxTpX5  |
+ |• Server: https://discord.gg/szfsUgHNYG  |
  |-----------------------------------------|
  |• Github: https://github.com/diwasatreya |
  |-----------------------------------------|
@@ -165,7 +165,7 @@ require('http').createServer((req, res) => res.end(`
 `)).listen(3000) //Dont remove this 
 
 client.on("%play", () => {
-   client.user.setStatus("Karo "); // You can change it to online, dnd, idle
+   client.user.setStatus("Just Karo"); // You can change it to online, dnd, idle
 
  console.log(`Successfully logined as ${client.user.tag} `)
 });
