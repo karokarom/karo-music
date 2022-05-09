@@ -175,8 +175,8 @@ client.on("%play", () => {
 
 //  For Watching Status
 // client.on("By Karo Bot Music", () => {
-// client.user.setActivity(`Chilling with owner`, { type:         "LISTENING",
+// client.user.setActivity(`Karo Up`, { type:"LISTENING",
 // url: "https://www.twitch.tv/nocopyrightsounds"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-client.login("OTU0MDI4MjAxMTQxNzUxODE4.YjNKAA.K6232T75Yj0Sm4oMswEQETbNgoQ");
+client.login("OTcyNTcxMDUwMjcxNDczNzA0.Yna_Xw.DkPMzK390hsHF4fud9R8oU36kEk");
