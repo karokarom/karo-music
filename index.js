@@ -59,9 +59,9 @@ client.on("message", async message => {
         .setDescription(`Hey **${message.author.username},** I was made by <@${developerID}> 
 
         Bot Prefix: \`${prefix}\`
-        Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
+        Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=954028201141751818&permissions=8&scope=bot)
 
-        :question: Still need help? [Click Here](https://discord.gg/szfsUgHNYG) to join server Karo
+        :question: Still need help? [Click Here](https://discord.gg/y5sWuu8Ypu) to join server Karo
         `)
         .setThumbnail(client.user.displayAvatarURL())
         .setColor("#006732")
@@ -156,7 +156,7 @@ require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
  |• Author: Supreme#2401                   |
  |-----------------------------------------|
- |• Server: https://discord.gg/szfsUgHNYG  |
+ |• Server: https://discord.gg/y5sWuu8Ypu  |
  |-----------------------------------------|
  |• Github: https://github.com/diwasatreya |
  |-----------------------------------------|
@@ -164,7 +164,7 @@ require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
 `)).listen(3000) //Dont remove this 
 
-client.on("%play", () => {
+client.on("-play", () => {
    client.user.setStatus("Just Karo"); // You can change it to online, dnd, idle
 
  console.log(`Successfully logined as ${client.user.tag} `)
@@ -176,7 +176,7 @@ client.on("%play", () => {
 //  For Watching Status
 // client.on("By Karo Bot Music", () => {
 // client.user.setActivity(`Karo Up`, { type:"LISTENING",
-// url: "https://www.twitch.tv/nocopyrightsounds"})
+// url: "https://www.twitch.tv/k4romm"})
 // console.log(`Successfully logined as ${client.user.tag}});
 
-client.login("OTcyNTcxMDUwMjcxNDczNzA0.Yna_Xw.DkPMzK390hsHF4fud9R8oU36kEk");
+client.login("OTU0MDI4MjAxMTQxNzUxODE4.GZJUYY.3C5xF57aPXiyjJS8YaWcxlXQlHFLj3zWUHEmVs");
